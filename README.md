@@ -3,7 +3,15 @@
 In order to use Locust to load test the Bassa API, install the latest version of [Docker with Docker Compose or Docker Desktop](https://www.docker.com/).
 
 ## Automated Method (Linux and macOS only)
-
+1. Move to the **core** directory (./Bassa/components/core) as follows:
+```bash
+cd components/core
+```
+2. Run the automated bash script **test-locust.sh** as follows:
+```bash
+./test-locust.sh
+```
+3. Refer to #Verifying Bassa
 
 
 ## Manual Method
@@ -26,11 +34,11 @@ While the container is building, you can install Locust by running (for Python3)
 python3 -m pip install locustio
 ```
 
-### Verifying Bassa
+## Verifying Bassa
 
 After you have installed Locust, wait for the container to start. Upon finishing, your terminal should resemble the following (you can verify if the services have successfully started by executing the command below):
 
-![Screenshot](https://user-images.githubusercontent.com/29003194/70384515-8c956a80-194d-11ea-90e0-a5d392fce4bb.png)
+![Screenshot](https://user-images.githubusercontent.com/29003194/70386124-8c07ce80-1963-11ea-8ed0-526b0fbb3e95.png)
 
 You can verify that the various Bassa services are running by executing:
 
@@ -38,7 +46,7 @@ You can verify that the various Bassa services are running by executing:
 docker ps
 ```
 
-![Screen Shot 2019-12-07 at 11.42.30 PM](https://user-images.githubusercontent.com/29003194/70384358-64a50780-194b-11ea-9c42-6adc7d92aa8c.png)
+![Screen Shot 2019-12-07 at 11.42.30 PM](https://user-images.githubusercontent.com/29003194/70386127-8e6a2880-1963-11ea-970b-ab6913227fda.png)
 
 You should see all four of the above services.
 
