@@ -2,32 +2,15 @@
 
 In order to use Locust to load test the Bassa API, install the latest version of [Docker with Docker Compose or Docker Desktop](https://www.docker.com/).
 
-#### API Endpoints Tested
-The following endpoints are load tested:
-- /login
-- /api/user/requests
-- /api/user/blocked
-- /api/user/downloads
-- /api/downloads
-- /api/user/heavy
+## Automated Method (Linux and macOS only)
 
- ### Clone Bassa
 
-First, clone the `bassa` repository from GitHub by running:
 
-```bash
-git clone https://github.com/scorelab/Bassa.git
-```
+## Manual Method
 
-Then, switch to the `develop` branch by running:
+### Starting a production Bassa instance
 
-```bash
-git checkout develop
-```
-
-### Using Locust
-
-Now, you can start up a production Bassa instance using Docker by running the following command in **./bassa**:
+You can start up a production Bassa instance using Docker by running the following command in **./bassa**:
 
 ```bash
 docker-compose up --build
@@ -35,6 +18,7 @@ docker-compose up --build
 
 You can also refer to the manual installation guides for [Windows](https://github.com/scorelab/Bassa/wiki/Windows-Installation-Guide), [macOS](https://github.com/scorelab/Bassa/wiki/MacOS-Installation-Guide), or [Linux](https://github.com/scorelab/Bassa/wiki/MacOS-Installation-Guide) if you wish to not use Docker.
 
+### Installing Locust
 While the container is building, you can install Locust by running (for Python3):
 
 ```bash
