@@ -51,6 +51,7 @@ docker ps
 You should see all four of the above services.
 
 #### Starting Locust
+**You can skip this step if you used the automated script above.**
 
 We can now navigate to **./bassa/components/core/tests** in our terminal and run Locust by executing the following in that directory:
 
