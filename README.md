@@ -7,6 +7,7 @@ In order to use Locust to load test the Bassa API, install the latest version of
 
 
 ## Manual Method
+In the below examples, a macOS machine is used, but these commands should be platform agnostic (assuming you follow the correct manual guides below should you elect not to use Docker).
 
 ### Starting a production Bassa instance
 
