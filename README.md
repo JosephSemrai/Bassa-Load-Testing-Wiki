@@ -11,7 +11,7 @@ cd components/core
 ```bash
 ./test-locust.sh
 ```
-3. Refer to #Verifying Bassa
+3. Refer to [Verifying Bassa](#verifying-bassa)
 
 
 ## Manual Method
