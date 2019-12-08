@@ -2,6 +2,15 @@
 
 In order to use Locust to load test the Bassa API, install the latest version of [Docker with Docker Compose or Docker Desktop](https://www.docker.com/).
 
+#### API Endpoints Tested
+The following endpoints are load tested:
+- /login
+- /api/user/requests
+- /api/user/blocked
+- /api/user/downloads
+- /api/downloads
+- /api/user/heavy
+
  ### Clone Bassa
 
 First, clone the `bassa` repository from GitHub by running:
